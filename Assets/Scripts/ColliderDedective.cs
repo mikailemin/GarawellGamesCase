@@ -6,10 +6,45 @@ public class ColliderDedective : MonoBehaviour
 {
     public DragAndDrop dragdrop;
     ObjectStateTracker tracker;
+    KareControl kareTracker;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (dragdrop.objectValue == ObjectValue.u)
+        {
+            if (other.CompareTag("Kare"))
+            {
+                Debug.Log("girdi");
+                if (kareTracker != null)
+                {
+                    for (int i = 0; i < kareTracker.doorState.Length; i++)
+                    {
+                        if (kareTracker.doorState[i])
+                        {
+                            kareTracker.stick[i].SetActive(false);
+                        }
+                    }
+                }
+                kareTracker = other.GetComponent<KareControl>();
+                if (kareTracker != null)
+                {
+                    dragdrop.currentKare = kareTracker; // Mevcut Tracker'ı kaydet
+                    if (dragdrop.IsDoorStateValidU(kareTracker))
+                    {
+                        //if (previewEffect != null)
+                        //{
+                        //    previewEffect.SetActive(true); // Yansımayı aç
+                        //    previewEffect.transform.position = tracker.transform.position; // Konum güncelle
+                        //}
+                    }
+                }
+                return;
+            }
+
+
+        }
         Debug.Log("girdi");
-        if (tracker!=null)
+        if (tracker != null)
         {
             for (int i = 0; i < tracker.doorState.Length; i++)
             {
@@ -19,7 +54,7 @@ public class ColliderDedective : MonoBehaviour
                 }
             }
         }
-         tracker = other.GetComponent<ObjectStateTracker>();
+        tracker = other.GetComponent<ObjectStateTracker>();
         if (tracker != null)
         {
             dragdrop.currentTracker = tracker; // Mevcut Tracker'ı kaydet
@@ -32,10 +67,34 @@ public class ColliderDedective : MonoBehaviour
                 //}
             }
         }
+
     }
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.GetComponent<ObjectStateTracker>() == dragdrop.currentTracker)
+        if (dragdrop.objectValue == ObjectValue.u)
+        {
+            if (other.CompareTag("Kare"))
+            {
+                if (other.GetComponent<KareControl>() == dragdrop.currentKare)
+                {
+                    if (dragdrop.currentKare != null && dragdrop.IsDoorStateValidU(dragdrop.currentKare))
+                    {
+                        for (int i = 0; i < dragdrop.keyObject.Length; i++)
+                        {
+                            if (dragdrop.keyObject[i] != null)
+                            {
+                                dragdrop.keyObject[i].gameObject.SetActive(true);
+                            }
+                        }
+                    }
+
+                }
+                return;
+            }
+
+
+        }
+        else if (other.GetComponent<ObjectStateTracker>() == dragdrop.currentTracker)
         {
             if (dragdrop.currentTracker != null && dragdrop.IsDoorStateValid(dragdrop.currentTracker))
             {
@@ -49,11 +108,36 @@ public class ColliderDedective : MonoBehaviour
             }
 
         }
+
+
     }
 
     // Nesne çıkınca preview kapanır
     private void OnTriggerExit2D(Collider2D other)
     {
+        if (dragdrop.objectValue == ObjectValue.u)
+        {
+            if (other.CompareTag("Kare"))
+            {
+                if (other.GetComponent<KareControl>() == dragdrop.currentKare)
+                {
+                    for (int i = 0; i < dragdrop.keyObject.Length; i++)
+                    {
+                        if (dragdrop.keyObject[i] != null)
+                        {
+
+                            dragdrop.keyObject[i].SetActive(false);
+                            dragdrop.keyObject[i] = null;
+                        }
+                    }
+                    dragdrop.currentKare = null; // Takibi bırak
+                                                 //  if (previewEffect != null) previewEffect.SetActive(false); // Yansımayı kapat
+                }
+                return;
+            }
+
+           
+        }
         if (other.GetComponent<ObjectStateTracker>() == dragdrop.currentTracker)
         {
             for (int i = 0; i < dragdrop.keyObject.Length; i++)
@@ -68,5 +152,7 @@ public class ColliderDedective : MonoBehaviour
             dragdrop.currentTracker = null; // Takibi bırak
                                             //  if (previewEffect != null) previewEffect.SetActive(false); // Yansımayı kapat
         }
+
+
     }
 }

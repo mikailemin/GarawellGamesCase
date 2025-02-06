@@ -6,29 +6,184 @@ public class RowAndCol : MonoBehaviour
 {
     public List<Row> row;
     public List<Row> col;
-
+    public List<StickReferans> tempRow;
+    public List<StickReferans> tempCol;
+    public List<GameObject> tempRowKare;
+    public List<GameObject> tempColKare;
     public static RowAndCol instance;
     private void Awake()
     {
-        if (instance!=null)
+        if (instance == null)
         {
-            instance= this; 
+            instance = this;
         }
         else
         {
             Destroy(gameObject);
         }
     }
+    public void IsCompleteControlRowAndCol(int x)
+    {
+        if (x == 0)
+        {
+            for (int i = 0; i < tempRowKare.Count; i++)
+            {
+                tempRowKare[i].GetComponent<SpriteRenderer>().enabled = false;
+            }
+            for (int k = 0; k < tempRow.Count; k++)
+            {
+
+                tempRow[k].GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0.6f);
+                tempRow[k].gameObject.SetActive(false);
+                for (int j = 0; j < tempRow[k].kareobject.Count; j++)
+                {
+                    tempRow[k].kareobject[j].doorState[tempRow[k].kareValue[j]] = true;
+                }
+               
+            }
+            for (int i = 0; i < tempRow.Count; i++)
+            {
+                for (int j = 0; j < tempRow[i].objectStates.Count; j++)
+                {
+                    tempRow[i].objectStates[j].doorState[tempRow[i].statesvalue[j]] = true;
+
+                }
+            }
+           
+
+        }
+        else
+        {
+
+            for (int i = 0; i < tempColKare.Count; i++)
+            {
+                tempColKare[i].GetComponent<SpriteRenderer>().enabled = false;
+            }
+            for (int k = 0; k < tempCol.Count; k++)
+            {
+
+                tempCol[k].GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0.6f);
+                tempCol[k].gameObject.SetActive(false);
+                for (int j = 0; j < tempCol[k].kareobject.Count; j++)
+                {
+                    tempCol[k].kareobject[j].doorState[tempCol[k].kareValue[j]] = true;
+                }
+
+            }
+            for (int i = 0; i < tempCol.Count; i++)
+            {
+                for (int j = 0; j < tempCol[i].objectStates.Count; j++)
+                {
+                    tempCol[i].objectStates[j].doorState[tempCol[i].statesvalue[j]] = true;
+
+                }
+            }
+        }
+        for (int i = 0; i < GetAllActiveObjects().Count; i++)
+        {
+            for (int j = 0; j < GetAllActiveObjects()[i].GetComponent<KareControl>().doorState.Length; j++)
+            {
+                GetAllActiveObjects()[i].GetComponent<KareControl>().doorState[j] = false;
+            }
+        
+          
+        } 
+    }
+
+    // Satır ve Sütunların tamamının aktif olup olmadığını kontrol eden fonksiyon
+    public bool IsRowOrColumnComplete()
+    {
+        // Satırları kontrol et
+        foreach (Row r in row)
+        {
+            if (IsAllActive(r.rowcol, 0))
+            {
+                Debug.Log("Bir satır tamamlandı!");
+                return true;
+            }
+        }
+
+        // Sütunları kontrol et
+        foreach (Row c in col)
+        {
+            if (IsAllActive(c.rowcol, 1))
+            {
+                Debug.Log("Bir sütun tamamlandı!");
+                return true;
+            }
+        }
+
+        return false;
+    }
+    // Liste içindeki tüm GameObject'lerin aktif olup olmadığını kontrol eden yardımcı fonksiyon
+    private bool IsAllActive(List<GameObject> objects, int x)
+    {
+        foreach (GameObject obj in objects)
+        {
+            if (obj != null && !obj.GetComponent<SpriteRenderer>().enabled)
+            {
+                tempCol.Clear();
+                tempRow.Clear();
+                return false; // Eğer herhangi biri kapalıysa false dön
+            }
+          
+            if (x == 0)
+            {
+                for (int i = 0; i < obj.GetComponent<KareControl>().stick.Count; i++)
+                {
+                    tempRow.Add(obj.GetComponent<KareControl>().stick[i].GetComponent<StickReferans>());
+                }
+                tempRowKare.Add(obj);
+
+            }
+            else
+            {
+                for (int i = 0; i < obj.GetComponent<KareControl>().stick.Count; i++)
+                {
+                    tempCol.Add(obj.GetComponent<KareControl>().stick[i].GetComponent<StickReferans>());
+                }
+                tempColKare.Add(obj);
+            }
+        }
+        IsCompleteControlRowAndCol(x);
+        return true; // Hepsi aktifse true dön
+    }
+
+    // Aktif olan tüm objeleri döndüren metod
+    public List<GameObject> GetAllActiveObjects()
+    {
+        List<GameObject> activeObjects = new List<GameObject>();
+
+        // Satırlardaki aktif objeleri ekle
+        foreach (Row r in row)
+        {
+            AddActiveObjects(r.rowcol, activeObjects);
+        }
+
+        // Sütunlardaki aktif objeleri ekle
+        foreach (Row c in col)
+        {
+            AddActiveObjects(c.rowcol, activeObjects);
+        }
+
+        return activeObjects;
+    }
+
+    // Liste içinde aktif objeleri bulan ve verilen listeye ekleyen yardımcı metod
+    private void AddActiveObjects(List<GameObject> objects, List<GameObject> activeList)
+    {
+        foreach (GameObject obj in objects)
+        {
+            if (obj != null && obj.GetComponent<SpriteRenderer>().enabled && !activeList.Contains(obj))
+            {
+                activeList.Add(obj);
+            }
+
+        }
+    }
 }
 [System.Serializable]
 public class Row
 {
-  
-    public List<GameObject> col;
-}
-[System.Serializable]
-public class Col
-{
-    
-    public List<GameObject> col;
+    public List<GameObject> rowcol;
 }

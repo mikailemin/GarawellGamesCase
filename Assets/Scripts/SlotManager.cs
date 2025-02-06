@@ -19,6 +19,7 @@ public class SlotManager : MonoBehaviour
         else
         {
             Destroy(instance);
+
         }
     }
     void Start()

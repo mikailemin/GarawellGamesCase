@@ -8,6 +8,8 @@ public class DragAndDrop : MonoBehaviour
     public ObjectValue objectValue;
     [HideInInspector]
     public ObjectStateTracker currentTracker; // Anlık temas edilen ObjectStateTracker
+    [HideInInspector]
+    public KareControl currentKare; // Anlık temas edilen ObjectStateTracker
     public bool[] keyState = new bool[4];
     public GameObject[] keyObject = new GameObject[4];
     // public GameObject previewEffect; // Yansıma göstermek için UI/Effect objesi
@@ -42,8 +44,47 @@ public class DragAndDrop : MonoBehaviour
     private void OnMouseUp()
     {
         isDragging = false;
+        if (objectValue == ObjectValue.u)
+        {
+            if (currentKare != null && IsDoorStateValidU(currentKare))
+            {
+                for (int i = 0; i < keyObject.Length; i++)
+                {
+                    if (keyObject[i] != null)
+                    {
+                        keyObject[i] = null;
+                        // currentTracker.doorState[i] = false;
+                        currentKare.stick[i].SetActive(true);
+                        currentKare.stick[i].GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 1);
+                        StickReferans stick = currentKare.stick[i].GetComponent<StickReferans>();
+                        for (int k = 0; k < stick.kareobject.Count; k++)
+                        {
+                            stick.kareobject[k].doorState[stick.kareValue[k]] = false;
+                            stick.kareobject[k].GetComponent<KareControl>().CheckCoontrol();
+                        }
+                        for (int j = 0; j < stick.objectStates.Count; j++)
+                        {
+                            stick.objectStates[j].doorState[stick.statesvalue[j]] = false;
+                           
+                        }
+                        // currentTracker.doorObject[i] = null;
+                    }
 
-        if (currentTracker != null && IsDoorStateValid(currentTracker))
+
+                }
+                SlotManager.instance.UseSlot();
+                gameObject.SetActive(false);
+                Debug.Log("Şekil başarıyla yerleşti!");
+            }
+            else
+            {
+                transform.position = startPosition;
+                return;
+            }
+           
+           
+        }
+        else if (currentTracker != null && IsDoorStateValid(currentTracker))
         {
             //  transform.position = currentTracker.transform.position; // Uygunsa nesneyi sabitle
             for (int i = 0; i < keyObject.Length; i++)
@@ -51,19 +92,26 @@ public class DragAndDrop : MonoBehaviour
                 if (keyObject[i] != null)
                 {
                     keyObject[i] = null;
-                   // currentTracker.doorState[i] = false;
+                    // currentTracker.doorState[i] = false;
                     currentTracker.doorObject[i].SetActive(true);
-                    currentTracker.doorObject[i].GetComponent<SpriteRenderer>().color=new Color(255,255,255,1);
+                    currentTracker.doorObject[i].GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 1);
                     StickReferans stick = currentTracker.doorObject[i].GetComponent<StickReferans>();
+                    for (int k = 0; k < stick.kareobject.Count; k++)
+                    {
+                        stick.kareobject[k].doorState[stick.kareValue[k]] = false;
+                        stick.kareobject[k].GetComponent<KareControl>().CheckCoontrol();
+                    }
                     for (int j = 0; j < stick.objectStates.Count; j++)
                     {
                         stick.objectStates[j].doorState[stick.statesvalue[j]] = false;
+                      
                     }
-                   // currentTracker.doorObject[i] = null;
+                    // currentTracker.doorObject[i] = null;
                 }
 
 
             }
+           
             SlotManager.instance.UseSlot();
             gameObject.SetActive(false);
             Debug.Log("Şekil başarıyla yerleşti!");
@@ -77,7 +125,29 @@ public class DragAndDrop : MonoBehaviour
     }
 
     // Trigger ile ObjectStateTracker'ı algılar
-  
+    public bool IsDoorStateValidU(KareControl tracker)
+    {
+        for (int i = 0; i < tracker.doorState.Length; i++)
+        {
+            if (keyState[i] == false)
+            {
+                Debug.Log("keystate");
+                continue;
+            }
+            if (keyState[i] != tracker.doorState[i])
+            {
+
+                Debug.Log("keystate false");
+                return false;
+            }
+            else
+            {
+                keyObject[i] = tracker.stick[i];
+
+            }
+        }
+        return true;
+    }
 
     // Hedef objenin doorState değerlerini kontrol et
     public bool IsDoorStateValid(ObjectStateTracker tracker)
@@ -89,12 +159,12 @@ public class DragAndDrop : MonoBehaviour
             {
                 if (keyState[i] == false)
                 {
-                   // Debug.Log("keystate");
+                    // Debug.Log("keystate");
                     continue;
                 }
                 if (keyState[i] == tracker.doorState[i])
                 {
-                   
+
                     keyObject[i] = tracker.doorObject[i];
                     Debug.Log(keyObject[i].name);
                     return true;
@@ -120,7 +190,7 @@ public class DragAndDrop : MonoBehaviour
                 else
                 {
                     keyObject[i] = tracker.doorObject[i];
-                   
+
                 }
             }
             return true;
