@@ -146,7 +146,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectValue: 0
+  sprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   currentTracker: {fileID: 0}
+  currentKare: {fileID: 0}
   keyState: 01000100
   keyObject:
   - {fileID: 0}

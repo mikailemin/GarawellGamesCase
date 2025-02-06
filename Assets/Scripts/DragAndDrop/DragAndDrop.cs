@@ -6,6 +6,7 @@ public class DragAndDrop : MonoBehaviour
     private bool isDragging = false;
     private Vector3 offset;
     public ObjectValue objectValue;
+  
     [HideInInspector]
     public ObjectStateTracker currentTracker; // Anlık temas edilen ObjectStateTracker
     [HideInInspector]
@@ -55,18 +56,22 @@ public class DragAndDrop : MonoBehaviour
                         keyObject[i] = null;
                         // currentTracker.doorState[i] = false;
                         currentKare.stick[i].SetActive(true);
-                        currentKare.stick[i].GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 1);
+                        currentKare.stick[i].GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0.9f);
                         StickReferans stick = currentKare.stick[i].GetComponent<StickReferans>();
+                        for (int j = 0; j < stick.objectStates.Count; j++)
+                        {
+                            stick.objectStates[j].doorState[stick.statesvalue[j]] = false;
+                            stick.objectStates[j].SpriteChanges("white");
+                            stick.objectStates[j].isLock=true;
+                        
+
+                        }
                         for (int k = 0; k < stick.kareobject.Count; k++)
                         {
                             stick.kareobject[k].doorState[stick.kareValue[k]] = false;
                             stick.kareobject[k].GetComponent<KareControl>().CheckCoontrol();
                         }
-                        for (int j = 0; j < stick.objectStates.Count; j++)
-                        {
-                            stick.objectStates[j].doorState[stick.statesvalue[j]] = false;
-                           
-                        }
+                       
                         // currentTracker.doorObject[i] = null;
                     }
 
@@ -94,18 +99,22 @@ public class DragAndDrop : MonoBehaviour
                     keyObject[i] = null;
                     // currentTracker.doorState[i] = false;
                     currentTracker.doorObject[i].SetActive(true);
-                    currentTracker.doorObject[i].GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 1);
+                    currentTracker.doorObject[i].GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0.9f);
                     StickReferans stick = currentTracker.doorObject[i].GetComponent<StickReferans>();
+                    for (int j = 0; j < stick.objectStates.Count; j++)
+                    {
+                        stick.objectStates[j].doorState[stick.statesvalue[j]] = false;
+                        stick.objectStates[j].SpriteChanges("white");
+                        stick.objectStates[j].isLock = true;
+
+
+                    }
                     for (int k = 0; k < stick.kareobject.Count; k++)
                     {
                         stick.kareobject[k].doorState[stick.kareValue[k]] = false;
                         stick.kareobject[k].GetComponent<KareControl>().CheckCoontrol();
                     }
-                    for (int j = 0; j < stick.objectStates.Count; j++)
-                    {
-                        stick.objectStates[j].doorState[stick.statesvalue[j]] = false;
-                      
-                    }
+                 
                     // currentTracker.doorObject[i] = null;
                 }
 

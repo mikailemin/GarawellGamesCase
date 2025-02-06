@@ -153,7 +153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -238,7 +238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -369,8 +369,24 @@ PrefabInstance:
       value: Square (11)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -441,8 +457,24 @@ PrefabInstance:
       value: Square (2)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -523,8 +555,24 @@ PrefabInstance:
       value: Square (29)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -709,7 +757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -831,7 +879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -942,7 +990,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -1033,7 +1081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -1131,7 +1179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1256,8 +1304,24 @@ PrefabInstance:
       value: Square (31)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1305,7 +1369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1417,7 +1481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1502,7 +1566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -1672,7 +1736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -1945,7 +2009,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2233,7 +2297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2334,7 +2398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -2571,8 +2635,24 @@ PrefabInstance:
       value: Square (18)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2811,7 +2891,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2832,6 +2912,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 00010101
   doorObject:
   - {fileID: 0}
@@ -2879,7 +2962,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2900,6 +2983,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 00010101
   doorObject:
   - {fileID: 0}
@@ -2959,8 +3045,24 @@ PrefabInstance:
       value: Square (25)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3014,7 +3116,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3035,6 +3137,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 2026614744}
@@ -3059,7 +3164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -3157,7 +3262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3528,7 +3633,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.3679245, g: 0.06768423, b: 0.21535996, a: 1}
   m_FlipX: 0
@@ -3716,8 +3821,24 @@ PrefabInstance:
       value: Square (6)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3771,7 +3892,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3792,6 +3913,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010001
   doorObject:
   - {fileID: 1952096915}
@@ -3851,8 +3975,24 @@ PrefabInstance:
       value: Square (24)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3906,7 +4046,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3927,6 +4067,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010001
   doorObject:
   - {fileID: 642081016}
@@ -3963,7 +4106,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4218,8 +4361,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4298,7 +4457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4395,7 +4554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4595,7 +4754,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -4711,8 +4870,24 @@ PrefabInstance:
       value: Square (19)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4914,7 +5089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5039,8 +5214,24 @@ PrefabInstance:
       value: Square (4)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5094,7 +5285,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5115,6 +5306,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01000101
   doorObject:
   - {fileID: 1023278846}
@@ -5151,7 +5345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5458,7 +5652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -5567,7 +5761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5652,7 +5846,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -5922,8 +6116,24 @@ PrefabInstance:
       value: Square (9)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5977,7 +6187,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5998,6 +6208,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 288183905}
@@ -6062,8 +6275,24 @@ PrefabInstance:
       value: Square (10)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6099,7 +6328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -6224,7 +6453,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6245,6 +6474,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010001
   doorObject:
   - {fileID: 2041501023}
@@ -6281,7 +6513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6394,7 +6626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6640,7 +6872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -6773,7 +7005,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6794,6 +7026,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010100
   doorObject:
   - {fileID: 469612275}
@@ -6830,7 +7065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7064,7 +7299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -7229,7 +7464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7463,7 +7698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -7577,7 +7812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7802,8 +8037,24 @@ PrefabInstance:
       value: Square (23)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7857,7 +8108,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7878,6 +8129,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 00010101
   doorObject:
   - {fileID: 0}
@@ -7937,8 +8191,24 @@ PrefabInstance:
       value: Square (15)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7984,7 +8254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -8081,7 +8351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -8199,7 +8469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -8331,8 +8601,24 @@ PrefabInstance:
       value: Square (27)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8386,7 +8672,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8407,6 +8693,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 1397237204}
@@ -8592,7 +8881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8728,8 +9017,24 @@ PrefabInstance:
       value: Square (12)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8800,8 +9105,24 @@ PrefabInstance:
       value: Square (28)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8855,7 +9176,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8876,6 +9197,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 1755487227}
@@ -9217,7 +9541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9351,7 +9675,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -9372,6 +9696,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01000101
   doorObject:
   - {fileID: 1547522276}
@@ -9419,7 +9746,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -9440,6 +9767,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 45944996}
@@ -9464,7 +9794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -9842,7 +10172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9999,8 +10329,24 @@ PrefabInstance:
       value: Square (26)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10054,7 +10400,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10075,6 +10421,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 1908953447}
@@ -10111,7 +10460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10196,7 +10545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -10303,7 +10652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -10435,8 +10784,24 @@ PrefabInstance:
       value: Square (21)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10495,7 +10860,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10516,6 +10881,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010001
   doorObject:
   - {fileID: 1198939552}
@@ -10850,7 +11218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10935,7 +11303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -11033,7 +11401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11267,7 +11635,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -11288,6 +11656,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 779026039}
@@ -11312,7 +11683,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1525313034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11545,8 +11916,24 @@ PrefabInstance:
       value: Square (22)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11600,7 +11987,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -11621,6 +12008,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 291448483}
@@ -11892,8 +12282,24 @@ PrefabInstance:
       value: Square (5)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11947,7 +12353,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -11968,6 +12374,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01000001
   doorObject:
   - {fileID: 1564345387}
@@ -11992,7 +12401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -12085,7 +12494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12370,20 +12779,24 @@ PrefabInstance:
       value: Square (30)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
       propertyPath: m_Color.b
-      value: 0.09019608
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
       propertyPath: m_Color.g
-      value: 0.09019608
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
       propertyPath: m_Color.r
-      value: 0.09411766
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
       propertyPath: m_Enabled
@@ -12391,7 +12804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12445,7 +12858,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12466,6 +12879,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010000
   doorObject:
   - {fileID: 1231069050}
@@ -12529,8 +12945,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12584,7 +13016,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12605,6 +13037,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 00000101
   doorObject:
   - {fileID: 0}
@@ -12629,7 +13064,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -12782,8 +13217,24 @@ PrefabInstance:
       value: Square (14)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12837,7 +13288,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12858,6 +13309,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 763081904}
@@ -12905,7 +13359,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12926,6 +13380,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 391421975}
@@ -12985,8 +13442,24 @@ PrefabInstance:
       value: Square (17)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13040,7 +13513,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -13061,6 +13534,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 00010101
   doorObject:
   - {fileID: 0}
@@ -13085,7 +13561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -13436,7 +13912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -13608,8 +14084,24 @@ PrefabInstance:
       value: Square (13)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13663,7 +14155,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -13684,6 +14176,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 1768155447}
@@ -13748,8 +14243,24 @@ PrefabInstance:
       value: Square (32)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13803,7 +14314,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -13824,6 +14335,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010100
   doorObject:
   - {fileID: 2066210904}
@@ -14351,8 +14865,24 @@ PrefabInstance:
       value: Square (20)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14406,7 +14936,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -14427,6 +14957,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 1474014921}
@@ -14486,8 +15019,24 @@ PrefabInstance:
       value: Square (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14558,8 +15107,24 @@ PrefabInstance:
       value: Square (16)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14656,8 +15221,24 @@ PrefabInstance:
       value: Square (7)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14711,7 +15292,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -14732,6 +15313,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 481098685}
@@ -14768,7 +15352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14869,7 +15453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -14983,7 +15567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15096,7 +15680,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15410,7 +15994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -15503,7 +16087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549473976764319325, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5970962220849871304, guid: ce946b2dd4dd3584f9890e3daaf02f2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15677,7 +16261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -15809,8 +16393,24 @@ PrefabInstance:
       value: Square (35)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15864,7 +16464,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -15885,6 +16485,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 00010100
   doorObject:
   - {fileID: 0}
@@ -15932,7 +16535,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -15953,6 +16556,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 133622043}
@@ -16394,8 +17000,24 @@ PrefabInstance:
       value: Square (3)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16449,7 +17071,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -16470,6 +17092,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01000101
   doorObject:
   - {fileID: 579530201}
@@ -16515,7 +17140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58856251687141523, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6448030956404269386, guid: cf392fa372813ee4e948804ee656156b, type: 3}
       propertyPath: m_Name
@@ -16689,8 +17314,24 @@ PrefabInstance:
       value: Square (34)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16744,7 +17385,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -16765,6 +17406,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010100
   doorObject:
   - {fileID: 851876671}
@@ -16854,7 +17498,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -16875,6 +17519,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01000101
   doorObject:
   - {fileID: 1493530810}
@@ -17251,8 +17898,24 @@ PrefabInstance:
       value: Square (33)
       objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17306,7 +17969,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -17327,6 +17990,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010100
   doorObject:
   - {fileID: 1758781456}
@@ -17374,7 +18040,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -17395,6 +18061,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 1862640352}
@@ -17442,7 +18111,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.1861539, y: 1.1861539}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -17463,6 +18132,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
+  blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
+  spriteRenderer: {fileID: 0}
   doorState: 01010101
   doorObject:
   - {fileID: 225119815}

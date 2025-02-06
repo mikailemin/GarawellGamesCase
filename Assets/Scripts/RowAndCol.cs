@@ -8,8 +8,14 @@ public class RowAndCol : MonoBehaviour
     public List<Row> col;
     public List<StickReferans> tempRow;
     public List<StickReferans> tempCol;
+    public List<StickReferans> AllStick;
+
     public List<GameObject> tempRowKare;
     public List<GameObject> tempColKare;
+
+    private List<GameObject> getallactiveobjects;
+    private List<StickReferans> getallactivesticks;
+
     public static RowAndCol instance;
     private void Awake()
     {
@@ -38,18 +44,21 @@ public class RowAndCol : MonoBehaviour
                 for (int j = 0; j < tempRow[k].kareobject.Count; j++)
                 {
                     tempRow[k].kareobject[j].doorState[tempRow[k].kareValue[j]] = true;
+
                 }
-               
+
             }
             for (int i = 0; i < tempRow.Count; i++)
             {
                 for (int j = 0; j < tempRow[i].objectStates.Count; j++)
                 {
                     tempRow[i].objectStates[j].doorState[tempRow[i].statesvalue[j]] = true;
+                    tempRow[i].objectStates[j].isLock = false;
+                    tempRow[i].objectStates[j].SpriteChanges("black");
 
                 }
             }
-           
+
 
         }
         else
@@ -75,19 +84,32 @@ public class RowAndCol : MonoBehaviour
                 for (int j = 0; j < tempCol[i].objectStates.Count; j++)
                 {
                     tempCol[i].objectStates[j].doorState[tempCol[i].statesvalue[j]] = true;
-
+                    tempCol[i].objectStates[j].isLock = false;
+                    tempCol[i].objectStates[j].SpriteChanges("black");
                 }
             }
         }
-        for (int i = 0; i < GetAllActiveObjects().Count; i++)
+        getallactiveobjects = GetAllActiveObjects();
+        for (int i = 0; i < getallactiveobjects.Count; i++)
         {
-            for (int j = 0; j < GetAllActiveObjects()[i].GetComponent<KareControl>().doorState.Length; j++)
+            for (int j = 0; j < getallactiveobjects[i].GetComponent<KareControl>().doorState.Length; j++)
             {
-                GetAllActiveObjects()[i].GetComponent<KareControl>().doorState[j] = false;
+                getallactiveobjects[i].GetComponent<KareControl>().doorState[j] = false;
             }
-        
-          
-        } 
+
+
+        }
+        getallactivesticks = GetAllActiveStick();
+        for (int l = 0; l < getallactivesticks.Count; l++)
+        {
+            for (int i = 0; i < getallactivesticks[l].objectStates.Count; i++)
+            {
+                getallactivesticks[l].objectStates[i].isLock = false;
+                getallactivesticks[l].objectStates[i].SpriteChanges("white");
+                getallactivesticks[l].objectStates[i].isLock = true;
+
+            }
+        }
     }
 
     // Satır ve Sütunların tamamının aktif olup olmadığını kontrol eden fonksiyon
@@ -126,7 +148,7 @@ public class RowAndCol : MonoBehaviour
                 tempRow.Clear();
                 return false; // Eğer herhangi biri kapalıysa false dön
             }
-          
+
             if (x == 0)
             {
                 for (int i = 0; i < obj.GetComponent<KareControl>().stick.Count; i++)
@@ -169,6 +191,7 @@ public class RowAndCol : MonoBehaviour
         return activeObjects;
     }
 
+
     // Liste içinde aktif objeleri bulan ve verilen listeye ekleyen yardımcı metod
     private void AddActiveObjects(List<GameObject> objects, List<GameObject> activeList)
     {
@@ -180,6 +203,19 @@ public class RowAndCol : MonoBehaviour
             }
 
         }
+    }
+    public List<StickReferans> GetAllActiveStick()
+    {
+        List<StickReferans> activeObjects = new List<StickReferans>();
+        foreach (StickReferans item in AllStick)
+        {
+            if (item!=null &&item.gameObject.activeSelf)
+            {
+                activeObjects.Add(item);
+            }
+        }
+
+        return activeObjects;
     }
 }
 [System.Serializable]

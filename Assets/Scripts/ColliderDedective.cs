@@ -14,9 +14,27 @@ public class ColliderDedective : MonoBehaviour
         {
             if (other.CompareTag("Kare"))
             {
+
                 Debug.Log("girdi");
                 if (kareTracker != null)
                 {
+                    for (int i = 0; i < dragdrop.keyObject.Length; i++)
+                    {
+                        if (dragdrop.keyObject[i] != null)
+                        {
+                            StickReferans stick = dragdrop.currentKare.stick[i].GetComponent<StickReferans>();
+                            for (int j = 0; j < stick.objectStates.Count; j++)
+                            {
+                                if (!stick.objectStates[j].isLock)
+                                {
+                                    stick.objectStates[j].SpriteChanges("black");
+                                }
+                            }
+                            dragdrop.keyObject[i].SetActive(false);
+                            dragdrop.keyObject[i] = null;
+                        }
+                    }
+                    dragdrop.currentKare = null;
                     for (int i = 0; i < kareTracker.doorState.Length; i++)
                     {
                         if (kareTracker.doorState[i])
@@ -43,28 +61,52 @@ public class ColliderDedective : MonoBehaviour
 
 
         }
-        Debug.Log("girdi");
-        if (tracker != null)
+       else if (other.CompareTag("Squa"))
         {
-            for (int i = 0; i < tracker.doorState.Length; i++)
+            Debug.Log("girdi");
+            if (tracker != null)
             {
-                if (tracker.doorState[i])
+                for (int i = 0; i < dragdrop.keyObject.Length; i++)
                 {
-                    tracker.doorObject[i].SetActive(false);
+                    if (dragdrop.keyObject[i] != null)
+                    {
+                        if (dragdrop.currentTracker != null)
+                        {
+                            Debug.Log(dragdrop.currentTracker.doorObject[i].name);
+                            StickReferans stick = dragdrop.currentTracker.doorObject[i].GetComponent<StickReferans>();
+
+                            for (int j = 0; j < stick.objectStates.Count; j++)
+                            {
+                                if (!stick.objectStates[j].isLock)
+                                {
+
+                                    stick.objectStates[j].SpriteChanges("black");
+                                }
+                            }
+                        }
+
+                    }
+                }
+                for (int i = 0; i < tracker.doorState.Length; i++)
+                {
+                    if (tracker.doorState[i])
+                    {
+                        tracker.doorObject[i].SetActive(false);
+                    }
                 }
             }
-        }
-        tracker = other.GetComponent<ObjectStateTracker>();
-        if (tracker != null)
-        {
-            dragdrop.currentTracker = tracker; // Mevcut Tracker'ı kaydet
-            if (dragdrop.IsDoorStateValid(tracker))
+            tracker = other.GetComponent<ObjectStateTracker>();
+            if (tracker != null)
             {
-                //if (previewEffect != null)
-                //{
-                //    previewEffect.SetActive(true); // Yansımayı aç
-                //    previewEffect.transform.position = tracker.transform.position; // Konum güncelle
-                //}
+                dragdrop.currentTracker = tracker; // Mevcut Tracker'ı kaydet
+                if (dragdrop.IsDoorStateValid(tracker))
+                {
+                    //if (previewEffect != null)
+                    //{
+                    //    previewEffect.SetActive(true); // Yansımayı aç
+                    //    previewEffect.transform.position = tracker.transform.position; // Konum güncelle
+                    //}
+                }
             }
         }
 
@@ -83,7 +125,13 @@ public class ColliderDedective : MonoBehaviour
                         {
                             if (dragdrop.keyObject[i] != null)
                             {
+                                StickReferans stick = dragdrop.currentKare.stick[i].GetComponent<StickReferans>();
+                                for (int j = 0; j < stick.objectStates.Count; j++)
+                                {
+                                    stick.objectStates[j].SpriteChanges("white");
+                                }
                                 dragdrop.keyObject[i].gameObject.SetActive(true);
+
                             }
                         }
                     }
@@ -96,13 +144,23 @@ public class ColliderDedective : MonoBehaviour
         }
         else if (other.GetComponent<ObjectStateTracker>() == dragdrop.currentTracker)
         {
-            if (dragdrop.currentTracker != null && dragdrop.IsDoorStateValid(dragdrop.currentTracker))
+            if (other.CompareTag("Squa"))
             {
-                for (int i = 0; i < dragdrop.keyObject.Length; i++)
+                if (dragdrop.currentTracker != null && dragdrop.IsDoorStateValid(dragdrop.currentTracker))
                 {
-                    if (dragdrop.keyObject[i] != null)
+                    for (int i = 0; i < dragdrop.keyObject.Length; i++)
                     {
-                        dragdrop.keyObject[i].gameObject.SetActive(true);
+                        if (dragdrop.keyObject[i] != null)
+                        {
+
+                            StickReferans stick = dragdrop.currentTracker.doorObject[i].GetComponent<StickReferans>();
+                            for (int j = 0; j < stick.objectStates.Count; j++)
+                            {
+                                stick.objectStates[j].SpriteChanges("white");
+                            }
+                            dragdrop.keyObject[i].gameObject.SetActive(true);
+                            // dragdrop.currentTracker.SpriteChanges("white");
+                        }
                     }
                 }
             }
@@ -125,7 +183,14 @@ public class ColliderDedective : MonoBehaviour
                     {
                         if (dragdrop.keyObject[i] != null)
                         {
-
+                            StickReferans stick = dragdrop.currentKare.stick[i].GetComponent<StickReferans>();
+                            for (int j = 0; j < stick.objectStates.Count; j++)
+                            {
+                                if (!stick.objectStates[j].isLock)
+                                {
+                                    stick.objectStates[j].SpriteChanges("black");
+                                }
+                            }
                             dragdrop.keyObject[i].SetActive(false);
                             dragdrop.keyObject[i] = null;
                         }
@@ -136,21 +201,33 @@ public class ColliderDedective : MonoBehaviour
                 return;
             }
 
-           
+
         }
         if (other.GetComponent<ObjectStateTracker>() == dragdrop.currentTracker)
         {
-            for (int i = 0; i < dragdrop.keyObject.Length; i++)
+            if (other.CompareTag("Squa"))
             {
-                if (dragdrop.keyObject[i] != null)
+                for (int i = 0; i < dragdrop.keyObject.Length; i++)
                 {
+                    if (dragdrop?.keyObject[i] != null)
+                    {
+                        StickReferans stick = dragdrop.currentTracker.doorObject[i].GetComponent<StickReferans>();
+                        for (int j = 0; j < stick.objectStates.Count; j++)
+                        {
+                            if (!stick.objectStates[j].isLock)
+                            {
+                                stick.objectStates[j].SpriteChanges("black");
+                            }
+                        }
 
-                    dragdrop.keyObject[i].SetActive(false);
-                    dragdrop.keyObject[i] = null;
+
+                        dragdrop.keyObject[i].SetActive(false);
+                        dragdrop.keyObject[i] = null;
+                    }
                 }
+                dragdrop.currentTracker = null; // Takibi bırak
+                                                //  if (previewEffect != null) previewEffect.SetActive(false); // Yansımayı kapat
             }
-            dragdrop.currentTracker = null; // Takibi bırak
-                                            //  if (previewEffect != null) previewEffect.SetActive(false); // Yansımayı kapat
         }
 
 
