@@ -146,7 +146,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectValue: 0
-  sprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   currentTracker: {fileID: 0}
   currentKare: {fileID: 0}
   keyState: 01000100
@@ -247,7 +246,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.13223457, y: -0.41986933}
+  m_Offset: {x: -0.073698044, y: -0.27515113}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -258,7 +257,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.6928654, y: 2.8090494}
+  m_Size: {x: 2.6278248, y: 3.3879225}
   m_EdgeRadius: 0
 --- !u!114 &8237223317277011275
 MonoBehaviour:

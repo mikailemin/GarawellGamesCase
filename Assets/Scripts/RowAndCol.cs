@@ -27,6 +27,7 @@ public class RowAndCol : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
     }
     public void IsCompleteControlRowAndCol(int x)
     {
@@ -34,6 +35,7 @@ public class RowAndCol : MonoBehaviour
         {
             for (int i = 0; i < tempRowKare.Count; i++)
             {
+                Debug.Log(tempRowKare.Count);
                 tempRowKare[i].GetComponent<SpriteRenderer>().enabled = false;
             }
             for (int k = 0; k < tempRow.Count; k++)
@@ -66,6 +68,7 @@ public class RowAndCol : MonoBehaviour
 
             for (int i = 0; i < tempColKare.Count; i++)
             {
+                Debug.Log(tempColKare.Count);
                 tempColKare[i].GetComponent<SpriteRenderer>().enabled = false;
             }
             for (int k = 0; k < tempCol.Count; k++)
@@ -94,6 +97,8 @@ public class RowAndCol : MonoBehaviour
         {
             for (int j = 0; j < getallactiveobjects[i].GetComponent<KareControl>().doorState.Length; j++)
             {
+                getallactiveobjects[i].GetComponent<KareControl>().stick[j].gameObject.SetActive(true);
+                getallactiveobjects[i].GetComponent<KareControl>().stick[j].GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0.9f);
                 getallactiveobjects[i].GetComponent<KareControl>().doorState[j] = false;
             }
 
@@ -102,8 +107,12 @@ public class RowAndCol : MonoBehaviour
         getallactivesticks = GetAllActiveStick();
         for (int l = 0; l < getallactivesticks.Count; l++)
         {
+
+
             for (int i = 0; i < getallactivesticks[l].objectStates.Count; i++)
             {
+
+                getallactivesticks[l].objectStates[i].doorState[getallactivesticks[l].statesvalue[i]] = false;
                 getallactivesticks[l].objectStates[i].isLock = false;
                 getallactivesticks[l].objectStates[i].SpriteChanges("white");
                 getallactivesticks[l].objectStates[i].isLock = true;
@@ -120,7 +129,7 @@ public class RowAndCol : MonoBehaviour
         {
             if (IsAllActive(r.rowcol, 0))
             {
-                Debug.Log("Bir satır tamamlandı!");
+                // Debug.Log("Bir satır tamamlandı!");
                 return true;
             }
         }
@@ -130,7 +139,7 @@ public class RowAndCol : MonoBehaviour
         {
             if (IsAllActive(c.rowcol, 1))
             {
-                Debug.Log("Bir sütun tamamlandı!");
+                //  Debug.Log("Bir sütun tamamlandı!");
                 return true;
             }
         }
@@ -146,6 +155,8 @@ public class RowAndCol : MonoBehaviour
             {
                 tempCol.Clear();
                 tempRow.Clear();
+                tempRowKare.Clear();
+                tempColKare.Clear();
                 return false; // Eğer herhangi biri kapalıysa false dön
             }
 
@@ -153,7 +164,9 @@ public class RowAndCol : MonoBehaviour
             {
                 for (int i = 0; i < obj.GetComponent<KareControl>().stick.Count; i++)
                 {
-                    tempRow.Add(obj.GetComponent<KareControl>().stick[i].GetComponent<StickReferans>());
+                    
+                        tempRow.Add(obj.GetComponent<KareControl>().stick[i].GetComponent<StickReferans>());
+                    
                 }
                 tempRowKare.Add(obj);
 
@@ -162,7 +175,9 @@ public class RowAndCol : MonoBehaviour
             {
                 for (int i = 0; i < obj.GetComponent<KareControl>().stick.Count; i++)
                 {
-                    tempCol.Add(obj.GetComponent<KareControl>().stick[i].GetComponent<StickReferans>());
+                   
+                        tempCol.Add(obj.GetComponent<KareControl>().stick[i].GetComponent<StickReferans>());
+                    
                 }
                 tempColKare.Add(obj);
             }
@@ -209,7 +224,7 @@ public class RowAndCol : MonoBehaviour
         List<StickReferans> activeObjects = new List<StickReferans>();
         foreach (StickReferans item in AllStick)
         {
-            if (item!=null &&item.gameObject.activeSelf)
+            if (item != null && item.gameObject.activeSelf)
             {
                 activeObjects.Add(item);
             }

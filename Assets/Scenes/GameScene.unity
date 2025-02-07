@@ -850,7 +850,7 @@ Transform:
   m_GameObject: {fileID: 166932606}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.329, y: -0.062, z: 0}
+  m_LocalPosition: {x: 2.6, y: -0.062, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2912,6 +2912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -2983,6 +2984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -3137,6 +3139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -3634,12 +3637,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.3679245, g: 0.06768423, b: 0.21535996, a: 1}
+  m_Sprite: {fileID: -1788271063, guid: 24cb2896e54f08c4f8b89a0748381191, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 10.85, y: 5.21}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3654,8 +3657,8 @@ Transform:
   m_GameObject: {fileID: 554865292}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0927, y: -27.3, z: 0}
-  m_LocalScale: {x: -30.26656, y: 11.9197, z: 1}
+  m_LocalPosition: {x: 0.6, y: -26.76, z: 0}
+  m_LocalScale: {x: 3.3551402, y: 3.3551402, z: 3.3551402}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 618602476}
@@ -3679,7 +3682,21 @@ MonoBehaviour:
   - {fileID: 4418339831058964310, guid: 47700773f495b4b4ab3d7e2933e9bd4b, type: 3}
   - {fileID: 5668951109468893880, guid: 47b76b2dc9224424da97ffa8cb50d224, type: 3}
   - {fileID: 646757749225241822, guid: 19cb17079d524364d998f0b12709362a, type: 3}
+  - {fileID: 2474673971505215982, guid: cdd511b2d560f5b47afd035d214f5716, type: 3}
+  - {fileID: 8961866212314440954, guid: 88faac2d9fffe6248802e72a54c5130e, type: 3}
+  - {fileID: 506282123918627597, guid: 390d236dd77a97d4a8327856610ccb3f, type: 3}
   - {fileID: 615750324368253552, guid: 88baa48fb32cbbf4eae5b44a9d6a204a, type: 3}
+  - {fileID: 5888020337702657376, guid: 0bf364b4ba6455c4f93b47892a8fb151, type: 3}
+  - {fileID: 8477579124049954434, guid: 3508da07806cab5418d6258cbd5e52c9, type: 3}
+  - {fileID: 5228105758459225226, guid: 3497073db19459243b66ad414cb05489, type: 3}
+  - {fileID: 4418339831058964310, guid: 47700773f495b4b4ab3d7e2933e9bd4b, type: 3}
+  - {fileID: 4418339831058964310, guid: 47700773f495b4b4ab3d7e2933e9bd4b, type: 3}
+  - {fileID: 4418339831058964310, guid: 47700773f495b4b4ab3d7e2933e9bd4b, type: 3}
+  - {fileID: 4418339831058964310, guid: 47700773f495b4b4ab3d7e2933e9bd4b, type: 3}
+  - {fileID: 5668951109468893880, guid: 47b76b2dc9224424da97ffa8cb50d224, type: 3}
+  - {fileID: 5668951109468893880, guid: 47b76b2dc9224424da97ffa8cb50d224, type: 3}
+  - {fileID: 5668951109468893880, guid: 47b76b2dc9224424da97ffa8cb50d224, type: 3}
+  - {fileID: 5668951109468893880, guid: 47b76b2dc9224424da97ffa8cb50d224, type: 3}
   slots:
   - {fileID: 618602476}
   - {fileID: 1951330174}
@@ -3913,6 +3930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -4067,6 +4085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -4287,6 +4306,67 @@ MonoBehaviour:
     - {fileID: 1298117228}
   tempRow: []
   tempCol: []
+  AllStick:
+  - {fileID: 1592119855}
+  - {fileID: 1564345389}
+  - {fileID: 1903378197}
+  - {fileID: 1105135645}
+  - {fileID: 1867333263}
+  - {fileID: 938619003}
+  - {fileID: 1354276830}
+  - {fileID: 1547522278}
+  - {fileID: 2028607285}
+  - {fileID: 1493530812}
+  - {fileID: 891683855}
+  - {fileID: 1701327731}
+  - {fileID: 1952096917}
+  - {fileID: 1670678148}
+  - {fileID: 1085937972}
+  - {fileID: 1298423217}
+  - {fileID: 391421977}
+  - {fileID: 1309696742}
+  - {fileID: 1875911905}
+  - {fileID: 1535126857}
+  - {fileID: 1661967336}
+  - {fileID: 1950704870}
+  - {fileID: 579037701}
+  - {fileID: 1198939554}
+  - {fileID: 408728147}
+  - {fileID: 1768155449}
+  - {fileID: 774640483}
+  - {fileID: 763081906}
+  - {fileID: 2016904393}
+  - {fileID: 791749393}
+  - {fileID: 737183508}
+  - {fileID: 459602242}
+  - {fileID: 1374018419}
+  - {fileID: 1001899157}
+  - {fileID: 2041501025}
+  - {fileID: 1619421552}
+  - {fileID: 960192728}
+  - {fileID: 1888870566}
+  - {fileID: 2018851482}
+  - {fileID: 1481253079}
+  - {fileID: 1862640354}
+  - {fileID: 479254226}
+  - {fileID: 1078726247}
+  - {fileID: 1949671555}
+  - {fileID: 884387484}
+  - {fileID: 642081018}
+  - {fileID: 1103840925}
+  - {fileID: 2026614746}
+  - {fileID: 1132432513}
+  - {fileID: 1908953449}
+  - {fileID: 448766306}
+  - {fileID: 1694714261}
+  - {fileID: 1345374548}
+  - {fileID: 1755487229}
+  - {fileID: 871212615}
+  - {fileID: 1231069052}
+  - {fileID: 469612277}
+  - {fileID: 2066210906}
+  - {fileID: 1959543445}
+  - {fileID: 1405795473}
   tempRowKare: []
   tempColKare: []
 --- !u!4 &583071147
@@ -4421,7 +4501,7 @@ Transform:
   m_GameObject: {fileID: 618602475}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.332, y: -0.059, z: 0}
+  m_LocalPosition: {x: -3.1, y: -0.059, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5306,6 +5386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -6208,6 +6289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -6474,6 +6556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -7026,6 +7109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -8129,6 +8213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -8693,6 +8778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -9197,6 +9283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -9696,6 +9783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -9767,6 +9855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -10421,6 +10510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -10881,6 +10971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -11656,6 +11747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -12008,6 +12100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -12281,6 +12374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Square (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8165032449087159998, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8730832273763070308, guid: e4aad0d5efce1154c8c48a804f2f3a60, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -12374,6 +12471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -12879,6 +12977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -12888,6 +12987,117 @@ MonoBehaviour:
   - {fileID: 791382451}
   - {fileID: 0}
   - {fileID: 0}
+--- !u!1 &1633162026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1633162028}
+  - component: {fileID: 1633162027}
+  m_Layer: 0
+  m_Name: GameMAnager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1633162027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633162026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7a46396a284f44d8510ddfe1685a6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drags:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  trackers:
+  - {fileID: 1642569384}
+  - {fileID: 2068563805}
+  - {fileID: 1236108351}
+  - {fileID: 2007173537}
+  - {fileID: 720157559}
+  - {fileID: 1611971287}
+  - {fileID: 572853750}
+  - {fileID: 1864103564}
+  - {fileID: 1688235997}
+  - {fileID: 851368611}
+  - {fileID: 1517758260}
+  - {fileID: 505579921}
+  - {fileID: 1408378175}
+  - {fileID: 1758432956}
+  - {fileID: 1677148793}
+  - {fileID: 1968478538}
+  - {fileID: 2138295689}
+  - {fileID: 1689117652}
+  - {fileID: 871846428}
+  - {fileID: 1242939280}
+  - {fileID: 1825267868}
+  - {fileID: 2136376358}
+  - {fileID: 1537079769}
+  - {fileID: 1011810910}
+  - {fileID: 578132129}
+  - {fileID: 505916224}
+  - {fileID: 1362020427}
+  - {fileID: 1113493202}
+  - {fileID: 1155470895}
+  - {fileID: 498610517}
+  - {fileID: 1627180925}
+  - {fileID: 906072765}
+  - {fileID: 1767364141}
+  - {fileID: 2132394894}
+  - {fileID: 2033270514}
+  - {fileID: 1961992893}
+  kareTrakers:
+  - {fileID: 751863071}
+  - {fileID: 1622925902}
+  - {fileID: 1588180255}
+  - {fileID: 1165425994}
+  - {fileID: 1431790316}
+  - {fileID: 1705734373}
+  - {fileID: 119770356}
+  - {fileID: 890545315}
+  - {fileID: 1298117231}
+  - {fileID: 706285172}
+  - {fileID: 1775991755}
+  - {fileID: 1997661278}
+  - {fileID: 2128816201}
+  - {fileID: 848179694}
+  - {fileID: 1971156263}
+  - {fileID: 1794924780}
+  - {fileID: 1909964501}
+  - {fileID: 1128308369}
+  - {fileID: 1781446151}
+  - {fileID: 553089268}
+  - {fileID: 1410123068}
+  - {fileID: 957483696}
+  - {fileID: 484104485}
+  - {fileID: 361504868}
+  - {fileID: 929776416}
+--- !u!4 &1633162028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633162026}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1642569380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13037,6 +13247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -13309,6 +13520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -13380,6 +13592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -13534,6 +13747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -14176,6 +14390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -14335,6 +14550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -14957,6 +15173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -15313,6 +15530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -16485,6 +16703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -16556,6 +16775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -17092,6 +17312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -17406,6 +17627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -17519,6 +17741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -17990,6 +18213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -18061,6 +18285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -18132,6 +18357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec69ea00b644a04eb8d7bd496feb3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLock: 0
   whitesprite: {fileID: -1311967339, guid: 08da9d6548dfee64d8a30916fffe678e, type: 3}
   blackSprite: {fileID: 21300000, guid: 55b39d0a88a95f74ea2e8546017214b0, type: 3}
   spriteRenderer: {fileID: 0}
@@ -18151,3 +18377,4 @@ SceneRoots:
   - {fileID: 1525313037}
   - {fileID: 1157976873}
   - {fileID: 583071147}
+  - {fileID: 1633162028}

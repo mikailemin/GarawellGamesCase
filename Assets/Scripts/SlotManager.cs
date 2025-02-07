@@ -12,7 +12,7 @@ public class SlotManager : MonoBehaviour
     public static SlotManager instance;
     private void Awake()
     {
-        if (instance==null)
+        if (instance == null)
         {
             instance = this;
         }
@@ -27,7 +27,13 @@ public class SlotManager : MonoBehaviour
         currentObjects = new GameObject[slots.Length];
         FillSlots();
     }
-
+    private void Update()
+    {
+        if (Input.GetKeyDown("x"))
+        {
+            FillSlots();
+        }
+    }
     // 3 slotu rastgele prefablarla doldur
     void FillSlots()
     {
@@ -45,23 +51,21 @@ public class SlotManager : MonoBehaviour
         if (currentObjects[slotIndex] != null)
         {
             Destroy(currentObjects[slotIndex]); // Önceki objeyi temizle
+
         }
 
         int randomIndex = Random.Range(0, prefabs.Length); // Rastgele prefab seç
         GameObject newObject = Instantiate(prefabs[randomIndex], slots[slotIndex].position, Quaternion.identity);
         newObject.transform.SetParent(slots[slotIndex]); // Slot düzenli kalsın
         currentObjects[slotIndex] = newObject;
+
     }
 
     // Prefab kullanıldığında çağrılacak fonksiyon
     public void UseSlot()
     {
-        //if (currentObjects[slotIndex] != null)
-        //{
-        //    Destroy(currentObjects[slotIndex]); // Kullanılan prefabı yok et
-        //    currentObjects[slotIndex] = null; // Slotu boş olarak işaretle
-        //}
-            usedSlotCount++; // Kullanılan slot sayısını artır
+
+        usedSlotCount++; // Kullanılan slot sayısını artır
 
         // Eğer 3 slot da boşaldıysa yeniden doldur
         if (usedSlotCount >= slots.Length)

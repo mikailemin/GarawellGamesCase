@@ -15,21 +15,15 @@ public class ColliderDedective : MonoBehaviour
             if (other.CompareTag("Kare"))
             {
 
-                Debug.Log("girdi");
+             
                 if (kareTracker != null)
                 {
                     for (int i = 0; i < dragdrop.keyObject.Length; i++)
                     {
                         if (dragdrop.keyObject[i] != null)
                         {
-                            StickReferans stick = dragdrop.currentKare.stick[i].GetComponent<StickReferans>();
-                            for (int j = 0; j < stick.objectStates.Count; j++)
-                            {
-                                if (!stick.objectStates[j].isLock)
-                                {
-                                    stick.objectStates[j].SpriteChanges("black");
-                                }
-                            }
+                            dragdrop.currentKare.stick[i].GetComponent<StickReferans>().StickControl("black");
+                      
                             dragdrop.keyObject[i].SetActive(false);
                             dragdrop.keyObject[i] = null;
                         }
@@ -49,11 +43,7 @@ public class ColliderDedective : MonoBehaviour
                     dragdrop.currentKare = kareTracker; // Mevcut Tracker'ı kaydet
                     if (dragdrop.IsDoorStateValidU(kareTracker))
                     {
-                        //if (previewEffect != null)
-                        //{
-                        //    previewEffect.SetActive(true); // Yansımayı aç
-                        //    previewEffect.transform.position = tracker.transform.position; // Konum güncelle
-                        //}
+                    
                     }
                 }
                 return;
@@ -63,7 +53,7 @@ public class ColliderDedective : MonoBehaviour
         }
        else if (other.CompareTag("Squa"))
         {
-            Debug.Log("girdi");
+           // Debug.Log("girdi");
             if (tracker != null)
             {
                 for (int i = 0; i < dragdrop.keyObject.Length; i++)
@@ -72,17 +62,10 @@ public class ColliderDedective : MonoBehaviour
                     {
                         if (dragdrop.currentTracker != null)
                         {
-                            Debug.Log(dragdrop.currentTracker.doorObject[i].name);
-                            StickReferans stick = dragdrop.currentTracker.doorObject[i].GetComponent<StickReferans>();
+                          
+                            dragdrop.currentTracker.doorObject[i].GetComponent<StickReferans>().StickControl("black");
 
-                            for (int j = 0; j < stick.objectStates.Count; j++)
-                            {
-                                if (!stick.objectStates[j].isLock)
-                                {
-
-                                    stick.objectStates[j].SpriteChanges("black");
-                                }
-                            }
+                        
                         }
 
                     }
@@ -101,11 +84,7 @@ public class ColliderDedective : MonoBehaviour
                 dragdrop.currentTracker = tracker; // Mevcut Tracker'ı kaydet
                 if (dragdrop.IsDoorStateValid(tracker))
                 {
-                    //if (previewEffect != null)
-                    //{
-                    //    previewEffect.SetActive(true); // Yansımayı aç
-                    //    previewEffect.transform.position = tracker.transform.position; // Konum güncelle
-                    //}
+                 
                 }
             }
         }
@@ -125,11 +104,8 @@ public class ColliderDedective : MonoBehaviour
                         {
                             if (dragdrop.keyObject[i] != null)
                             {
-                                StickReferans stick = dragdrop.currentKare.stick[i].GetComponent<StickReferans>();
-                                for (int j = 0; j < stick.objectStates.Count; j++)
-                                {
-                                    stick.objectStates[j].SpriteChanges("white");
-                                }
+                                dragdrop.currentKare.stick[i].GetComponent<StickReferans>().StickControl("white");
+                              
                                 dragdrop.keyObject[i].gameObject.SetActive(true);
 
                             }
@@ -153,13 +129,10 @@ public class ColliderDedective : MonoBehaviour
                         if (dragdrop.keyObject[i] != null)
                         {
 
-                            StickReferans stick = dragdrop.currentTracker.doorObject[i].GetComponent<StickReferans>();
-                            for (int j = 0; j < stick.objectStates.Count; j++)
-                            {
-                                stick.objectStates[j].SpriteChanges("white");
-                            }
+                            dragdrop.currentTracker.doorObject[i].GetComponent<StickReferans>().StickControl("white");
+                            
                             dragdrop.keyObject[i].gameObject.SetActive(true);
-                            // dragdrop.currentTracker.SpriteChanges("white");
+                        
                         }
                     }
                 }
@@ -183,20 +156,13 @@ public class ColliderDedective : MonoBehaviour
                     {
                         if (dragdrop.keyObject[i] != null)
                         {
-                            StickReferans stick = dragdrop.currentKare.stick[i].GetComponent<StickReferans>();
-                            for (int j = 0; j < stick.objectStates.Count; j++)
-                            {
-                                if (!stick.objectStates[j].isLock)
-                                {
-                                    stick.objectStates[j].SpriteChanges("black");
-                                }
-                            }
+                            dragdrop.currentKare.stick[i].GetComponent<StickReferans>().StickControl("black");
+                          
                             dragdrop.keyObject[i].SetActive(false);
                             dragdrop.keyObject[i] = null;
                         }
                     }
-                    dragdrop.currentKare = null; // Takibi bırak
-                                                 //  if (previewEffect != null) previewEffect.SetActive(false); // Yansımayı kapat
+                    dragdrop.currentKare = null; 
                 }
                 return;
             }
@@ -211,22 +177,15 @@ public class ColliderDedective : MonoBehaviour
                 {
                     if (dragdrop?.keyObject[i] != null)
                     {
-                        StickReferans stick = dragdrop.currentTracker.doorObject[i].GetComponent<StickReferans>();
-                        for (int j = 0; j < stick.objectStates.Count; j++)
-                        {
-                            if (!stick.objectStates[j].isLock)
-                            {
-                                stick.objectStates[j].SpriteChanges("black");
-                            }
-                        }
+                        dragdrop.currentTracker.doorObject[i].GetComponent<StickReferans>().StickControl("black");
+                     
 
 
                         dragdrop.keyObject[i].SetActive(false);
                         dragdrop.keyObject[i] = null;
                     }
                 }
-                dragdrop.currentTracker = null; // Takibi bırak
-                                                //  if (previewEffect != null) previewEffect.SetActive(false); // Yansımayı kapat
+                dragdrop.currentTracker = null; 
             }
         }
 
